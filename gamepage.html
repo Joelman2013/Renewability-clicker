@@ -16,8 +16,25 @@
   </style>
 </head>
 
-</body>
+<body>
 
   <h1>Year: <span id="year">1831</span>span></h1>
 
-  <p>Click to advance time and unlock
+  <p>Click to advance time and unlock new types of energy!</p>
+
+  <button id="clickBtn">Advance Year</button>
+
+  <script>
+  let year = 1831;
+
+    const yearEL = document.getELementbyId("Year");
+    const clickBtn = document.getELementBYId('clickBtn);
+
+clickBtn.addEventListener("click, () => {
+    year++;
+    yearEL.textcontent = year;
+    });
+</script>
+
+</body>
+</html>
