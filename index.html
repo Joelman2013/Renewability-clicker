@@ -26,10 +26,9 @@
 
   <script>
   let year = 1831;
-
-    const yearEl = document.getELementById("year");
-    const clickBtn = document.getELementByid("clickBtn");
-
+    const yearEL = document.getElementById("year");
+    const clickBtn = document.getElementById("clickBtn");
+    
 clickBtn.addEventListener("click", () => {
     year++;
     yearEl.textContent = year;
